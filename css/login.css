@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrar,
+.cadastrar{
+    background-color: white;
+    width: 400px;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+
+.entrar > h1,
+.cadastrar > h1{
+    padding: 20px 20px 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.entrar > form,
+.cadastrar > form{
+    padding: 10px 20px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box{
+    color:black;
+    font-size: 14px;
+    background-color: #E4E4E4;
+    width: 330px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.item{
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    align-items: center;
+}
+.item > text{
+    padding: 0px 0px 0px 5px;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: #9EFF00;
+    border: 0px;
+    border-radius:5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    box-shadow: 0 0 1em gray;
+    transition: all 100ms linear;
+}
+.asb{
+    text-decoration: none;
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.dicaS,
+.dicaE{
+    text-align: center;
+    box-shadow: 0 0 0.5em gray;
+    border-radius: 5px;
+    background-color: #ffebeb;
+}
